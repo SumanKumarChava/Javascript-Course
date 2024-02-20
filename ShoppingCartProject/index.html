@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="container">
+        <p class="h2">Shopping List</p>
+        <form> 
+            <input type="text" id="txtName" class="form-control" style="width: 500px; margin-top: 20px; margin-bottom: 20px; height: 40px;" placeholder="Enter item name to add it to shopping cart"/>
+            <button type="button" id="btnAddItem" class="btn btn-primary">Add</button>
+        </form>
+
+        <p id="shopListHeading" class="h4" style="margin-top: 20px;">Items added in the cart are:</p>
+        <div id="shoppingList">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
